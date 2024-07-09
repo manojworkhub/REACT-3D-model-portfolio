@@ -22,7 +22,7 @@ import {
   carrent,
   jobit,
   tripguide,
-  threejs,
+  threejs, material,
 } from "../assets";
 
 export const navLinks = [
@@ -76,18 +76,12 @@ const technologies = [
     name: "JavaScript",
     icon: javascript,
   },
-  {
-    name: "TypeScript",
-    icon: typescript,
-  },
+
   {
     name: "React JS",
     icon: reactjs,
   },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
+ 
   {
     name: "Tailwind CSS",
     icon: tailwind,
@@ -113,62 +107,73 @@ const technologies = [
     icon: figma,
   },
   {
-    name: "docker",
-    icon: docker,
+    name: "material UI",
+    icon: material,
   },
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "React",
+    // company_name: "Starbucks",
+    icon: reactjs,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "Feb 2024 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Proficient in creating reusable components and using JSX syntax.",
+      "Experienced with managing state using hooks and passing data via props.",
+      "Skilled in handling user interactions, form state, and validations.",
+      "Capable of fetching data from APIs and implementing conditional rendering.",
+      "Optimizes performance with techniques like memoization and code splitting.",
+      "Strong problem-solving skills and effective collaboration with cross-functional teams.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "CSS Framework",
+    // company_name: "Tesla",
+    icon: css,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Dec 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Skilled in creating responsive designs using Tailwind’s utility classes and Bootstrap’s grid system.",
+      "Capable of customizing Tailwind and Bootstrap to fit specific project needs, ensuring unique and brand-consistent designs.",
+
+      "Optimizes CSS for performance by purging unused styles in Tailwind and minimizing Bootstrap’s file size.",
+      "Implements effective visual feedback and interactive components using both Tailwind and Bootstrap.",
+
+      "Strong attention to detail, effective collaboration with cross-functional teams, and clear communication.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "Javascript",
+    // company_name: "Shopify",
+    icon: javascript,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "Nov 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Proficient in JavaScript syntax, DOM manipulation, and event handling.",
+      "Skilled in implementing responsive design and dynamic content loading using JavaScript and APIs.",
+      "Writes efficient and optimized JavaScript code, understands asynchronous programming (promises, async/await).",
+      // "Enhances user experience with smooth animations, transitions, and immediate feedback mechanisms.",
+      "Ensures all interactive elements are accessible via keyboard and screen readers using ARIA attributes.",
+      "Experienced in using browser developer tools for debugging and writing unit tests with frameworks like Jest.",
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    title: "HTML & CSS",
+    // company_name: "Meta",
+    icon: html,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "oct 2023 ",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Learn and use semantic HTML tags to structure your web pages effectively.",
+      "Implement media queries to ensure your website looks good on all device sizes.",
+      "Use semantic HTML tags to improve accessibility and SEO.",
+      "Enhance accessibility of interactive elements with ARIA roles and properties.",
+      "Use browser developer tools for debugging and testing.",
+      "Follow blogs, tutorials, and online courses to stay current with UX trends.",
+      "Focus on spacing, alignment, and consistency in design.",
+      "Actively seek and incorporate feedback to improve your designs.",
     ],
   },
 ];
