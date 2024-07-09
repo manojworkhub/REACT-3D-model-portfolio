@@ -11,10 +11,10 @@ function App() {
         </div>
         <About/>
         <Experience/>
-        
-<Tech/>
+        <Tech/> 
+        <StarsCanvas/>
         <Works/>
-        <Feedbacks/>
+        {/* <Feedbacks/> */}
         <div className="relative z-0">
           <Contact/>
           <StarsCanvas/>

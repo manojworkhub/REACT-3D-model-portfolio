@@ -257,16 +257,24 @@ const projects = [
       "Welcome to my personal portfolio website, where creativity meets professionalism. Here, you'll find a curated collection of my work, showcasing my skills, projects, and accomplishments. From innovative web designs to detailed project management, each piece reflects my dedication and passion for excellence. ",
     tags: [
       {
-        name: "nextjs",
+        name: "HTML ",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "CSS",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "JAVASCRIPT",
         color: "pink-text-gradient",
+      },
+      {
+        name: "Bootstrap",
+        color: "yellow-text-gradient",
+      },
+      {
+        name: "Jquery",
+        color: "red-text-gradient",
       },
     ],
     image: "https://i.ibb.co/6ZByGSq/Screenshot-83.png" ,
