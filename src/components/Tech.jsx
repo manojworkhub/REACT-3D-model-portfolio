@@ -9,7 +9,7 @@ const Tech = () => {
     <h2 className={`${styles.sectionHeadText} text-center`} id="skills">
     Skills
     </h2>
-    <div className='flex flex-row flex-wrap justify-center gap-10'>
+    <div className='flex flex-row flex-wrap justify-center gap-10  py-6'>
      
       {technologies.map((technology) => (
         <div className='w-28 h-28' key={technology.name}>

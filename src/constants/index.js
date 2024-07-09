@@ -4,24 +4,18 @@ import {
   creator,
   web,
   javascript,
-  typescript,
+
   html,
   css,
   reactjs,
-  redux,
+ 
   tailwind,
   nodejs,
   mongodb,
   git,
   figma,
-  docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
+ 
+ 
   threejs, material,
 } from "../assets";
 
@@ -207,51 +201,60 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "CADCENTER",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "This project highlights my ability to create visually appealing and responsive web designs tailored for educational purposes. The site features intuitive navigation, detailed course information, and engaging visuals to attract and retain potential students. My attention to detail and expertise in front-end development ensured a seamless user experience.",
     tags: [
       {
-        name: "react",
+        name: "HTML ",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "CSS",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "JAVASCRIPT",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image:"https://i.ibb.co/vwqyjt8/Screenshot-10.png",
+    source_code_link: "https://github.com/manojworkhub/CADCENTER",
+    live_code_link: "https://manojworkhub.github.io/CADCENTER/",
   },
   {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+    name: "Ubinsoft Replica webpage",
+    description:"This project showcases my ability to design visually appealing, responsive web pages with a sleek, user-friendly interface. Despite being static, I implemented interactive elements to enhance user experience. The website highlights my strong front-end development skills and attention to detail.",
     tags: [
       {
-        name: "react",
+        name: "HTML ",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "CSS",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "JAVASCRIPT",
         color: "pink-text-gradient",
       },
+      {
+        name: "Splide.js",
+        color: "yellow-text-gradient",
+      },
+      {
+        name: "Jquery",
+        color: "red-text-gradient",
+      },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: "https://i.ibb.co/YbNS6QJ/Screenshot-69.png",
+    source_code_link: "https://github.com/manojworkhub/mobile-ubinsoft",
+    live_code_link: "https://manojworkhub.github.io/mobile-ubinsoft/",
   },
   {
-    name: "Trip Guide",
+    name: "Static portfolio website",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Welcome to my personal portfolio website, where creativity meets professionalism. Here, you'll find a curated collection of my work, showcasing my skills, projects, and accomplishments. From innovative web designs to detailed project management, each piece reflects my dedication and passion for excellence. ",
     tags: [
       {
         name: "nextjs",
@@ -266,8 +269,9 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: "https://i.ibb.co/6ZByGSq/Screenshot-83.png" ,
+    source_code_link: "https://github.com/manojworkhub/MR.work-hub",
+    live_code_link: "https://manojworkhub.github.io/MR.work-hub/index.html",
   },
 ];
 

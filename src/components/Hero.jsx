@@ -8,7 +8,7 @@ const Hero = () => {
 
 
   return (
-    <section className="relative w-full h-screen mx-auto border ">
+    <section className="relative w-full h-screen mx-auto  ">
       <div className="flex absolute top-[100px] left-10 md:top-[100px] md:left-[150px] flex-col justify-center items-center ">
         <div className="w-5 h-5 md:w-6 md:h-6 lg:w-7 lg:h-7 bg-[#915EFF] rounded-full" />
         <div className="w-1 h-40 md:w-1 md:h-75 lg:h-80 violet-gradient" />
