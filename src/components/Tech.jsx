@@ -1,6 +1,6 @@
 import React from "react";
 import { styles } from "../styles";
-// import { BallCanvas } from "./canvas";
+
 import { SectionWrapper } from "../hoc";
 import { technologies } from "../constants";
 import { Tilt } from "react-tilt";
@@ -43,7 +43,7 @@ const Tech = () => {
      
       {technologies.map((technology) => (
         <div className='w-18 h-18 xxs:w-50 xxs:h-50' key={technology.name}>
-          {/* <BallCanvas icon={technology.icon} /> */}
+         
           <SkillCard icon={technology.icon} name ={technology.name}/>
         </div>
       ))}

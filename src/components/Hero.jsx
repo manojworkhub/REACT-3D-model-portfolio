@@ -3,7 +3,7 @@ import { styles } from "../styles";
 import { motion } from "framer-motion";
 import { Tilt } from "react-tilt";
 import { fadeIn} from "../utils/motion";
-// import ComputersCanvas from "./canvas/Computers";
+
 
 
 const Hero = () => {
@@ -24,7 +24,7 @@ const Hero = () => {
           Passionate in front end development and web development
         </p>
       </div>
-      {/* <ComputersCanvas /> */}
+     
  <div className="absolute left-[180px] top-[300px] xxxs:left-[60px] xxs:left-[100px] xxs:top-[330px] md:left-[405px] md:top-[260px] lg:left-[600px] xl:left-[750px] xl:top-[200px] "> 
 
       <Tilt className="xs:w-[150px] w-full ">
