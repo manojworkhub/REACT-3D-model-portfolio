@@ -282,5 +282,21 @@ const projects = [
     live_code_link: "https://manojworkhub.github.io/MR.work-hub/index.html",
   },
 ];
+// const Profile = [
+//   {
+//     title: "React",
+//     // company_name: "Starbucks",
+//     icon: reactjs,
+//     img: "#383E56",
+//     date: "Feb 2024 - Present",
+//     para: [
+//       "Proficient in creating reusable components and using JSX syntax.",
+//       "Experienced with managing state using hooks and passing data via props.",
+//       "Skilled in handling user interactions, form state, and validations.",
+//       "Capable of fetching data from APIs and implementing conditional rendering.",
+//       "Optimizes performance with techniques like memoization and code splitting.",
+//       "Strong problem-solving skills and effective collaboration with cross-functional teams.",
+//     ],
+//   },]
 
 export { services, technologies, experiences, testimonials, projects };

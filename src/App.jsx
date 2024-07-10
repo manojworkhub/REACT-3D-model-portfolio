@@ -5,20 +5,23 @@ function App() {
   return (
     <BrowserRouter>
       <div className="relative z-0 bg-[#050816]">
-        <div className="w-[100%] bg-hero-pattern bg-cover bg-no-repeat bg-center">
+     
+        <div className="w-[100%] bg-hero-pattern z-20 bg-cover bg-no-repeat bg-center">
           <Navbar />
           <Hero />
+          
         </div>
         <About/>
         <Experience/>
         <Tech/> 
-        <StarsCanvas/>
+     
         <Works/>
         {/* <Feedbacks/> */}
         <div className="relative z-0">
           <Contact/>
-          <StarsCanvas/>
+          {/* <StarsCanvas/> */}
         </div>
+        <StarsCanvas/>
       </div>
     </BrowserRouter>
   );
