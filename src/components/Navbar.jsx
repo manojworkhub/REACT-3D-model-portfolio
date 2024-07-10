@@ -37,14 +37,14 @@ const Navbar = () => {
           {toggle ? <IoClose /> : <TiThMenuOutline />}
         </button>
         {toggle ? (
-          <div className="md:hidden absolute top-20 right-10 bg-gradient-to-b from-black-200 from-70% to-black-100 to-100%  rounded-sm">
+          <div className="md:hidden absolute top-20 right-10 bg-gradient-to-b from-black-200 from-70% to-black-100 to-100%  rounded-md">
             <ul className="">
               {navLinks.map((navlist) => (
                 <li
                   key={navlist.id}
                   className={`${
                     active === navlist.title ? "text-white" : "text-secondary"
-                  } hover:text-white text-[18px] font-medium cursor-pointer py-1 px-2`}
+                  } hover:text-white text-[32px] font-medium cursor-pointer py-3 px-6 `}
                   onClick={() => handleToggle()}
                 >
                   <a href={`#${navlist.id}`}>{navlist.title}</a>
