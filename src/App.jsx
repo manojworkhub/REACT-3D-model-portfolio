@@ -14,14 +14,14 @@ function App() {
         <About/>
         <Experience/>
         <Tech/> 
-     
+        <StarsCanvas/>
         <Works/>
         {/* <Feedbacks/> */}
         <div className="relative z-0">
           <Contact/>
-          {/* <StarsCanvas/> */}
+          <StarsCanvas/>
         </div>
-        <StarsCanvas/>
+      
       </div>
     </BrowserRouter>
   );

@@ -19,7 +19,7 @@ const SkillCard = ({ index, name, icon }) => {
             scale: 1,
             speed: 450,
           }}
-          className="bg-tertiary rounded-[20px] py-5 px-12 min-h-[10p0%] flex justify-evenly items-center flex-col"
+          className="bg-tertiary rounded-[20px] py-5 px-12 min-h-[100%] flex justify-evenly items-center flex-col"
         >
           <img
             src={icon}
@@ -42,7 +42,7 @@ const Tech = () => {
     <div className='flex flex-row flex-wrap justify-center gap-10  py-6'>
      
       {technologies.map((technology) => (
-        <div className='w-18 h-18' key={technology.name}>
+        <div className='w-18 h-18 xxs:w-50 xxs:h-50' key={technology.name}>
           {/* <BallCanvas icon={technology.icon} /> */}
           <SkillCard icon={technology.icon} name ={technology.name}/>
         </div>

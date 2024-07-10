@@ -2,7 +2,6 @@ import React from "react";
 import { styles } from "../styles";
 import { motion } from "framer-motion";
 import { Tilt } from "react-tilt";
-
 import { fadeIn} from "../utils/motion";
 // import ComputersCanvas from "./canvas/Computers";
 
@@ -26,36 +25,17 @@ const Hero = () => {
         </p>
       </div>
       {/* <ComputersCanvas /> */}
+ <div className="absolute left-[180px] top-[300px] xxxs:left-[60px] xxs:left-[100px] xxs:top-[330px] md:left-[405px] md:top-[260px] lg:left-[600px] xl:left-[750px] xl:top-[200px] "> 
 
-
-      {/* <Tilt className="xs:w-[250px] w-full">
-      <motion.div
-        variants={fadeIn("right", "spring", index * 0.5, 0.75)}
-        className="w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card"
-      >
-        <div
-          options={{
-            max: 45,
-            scale: 1,
-            speed: 450,
-          }}
-          className="bg-tertiary rounded-[20px] py-5 px-12 min-h-[100%] flex justify-evenly items-center flex-col"
-        >
-          <img
-            src=""
-            alt="web-development"
-            className="w-16 h-16 object-contain"
-          />
-          <h3 className="text-white text-[20px] font-bold text-center">
-           mano
-          </h3>
-        </div>
-      </motion.div>
-    </Tilt> */}
-
-      
+      <Tilt className="xs:w-[150px] w-full ">
+      <div className="w-[200px] h-[200px] xxxs:w-[200px] xxxs:h-[200px] xxs:w-[200px] xxs:h-[200px]  md:w-[300px] md:h-[300px] xl:w-[400px] xl:h-[400px] rounded-full green-pink-gradient shadow-card  "> 
+             <img src="https://i.ibb.co/TqPXv7h/profile.png" alt="lindedin-pic"  className="w-[200px] h-[200px] xxs:w-[200px] xxs:h-[200px] md:w-[300px] md:h-[300px] xl:w-[400px] xl:h-[400px] rounded-full p-1 object-cover  object-center" />
+      </div>
+      </Tilt>
+ </div>
+      <div className="hidden md:block"> 
       <div
-        className="absolute xs:bottom-2 bottom-2 w-full flex justify-center items-center"
+        className="absolute xs:bottom-2 bottom-2 w-full flex justify-center items-center "
         
       >
         <a href="#about">
@@ -74,7 +54,7 @@ const Hero = () => {
         
           </div>
         </a>
-      
+        </div>
       </div>
     </section>
   );
