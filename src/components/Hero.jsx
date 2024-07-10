@@ -33,7 +33,7 @@ const Hero = () => {
       </div>
       </Tilt>
  </div>
-      <div className="hidden md:block"> 
+      <div className=""> 
       <div
         className="absolute xs:bottom-2 bottom-2 w-full flex justify-center items-center "
         
