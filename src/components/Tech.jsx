@@ -8,7 +8,8 @@ import { motion } from "framer-motion";
 import { fadeIn, textVariant } from "../utils/motion";
 const SkillCard = ({ index, name, icon }) => {
   return (
-    <Tilt className="xs:w-[250px] w-full">
+    // <Tilt className="xs:w-[250px] w-full">
+    <Tilt>
       <motion.div
         variants={fadeIn("right", "spring", index * 0.5, 0.75)}
         className="w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card"
@@ -24,9 +25,9 @@ const SkillCard = ({ index, name, icon }) => {
           <img
             src={icon}
             alt="web-development"
-            className="w-16 h-16 object-contain"
+            className="md:w-16 md:h-16  w-[100%] h-[100%] object-contain"
           />
-          <h3 className="text-white text-[20px] font-bold text-center">
+          <h3 className="text-white text-[20px] xxxs:text-[1rem] font-bold text-center">
             {name}
           </h3>
         </div>
@@ -35,19 +36,19 @@ const SkillCard = ({ index, name, icon }) => {
   );
 };
 const Tech = () => {
-  return ( <>
-    <h2 className={`${styles.sectionHeadText} text-center`} id="skills">
-    Skills
-    </h2>
-    <div className='flex flex-row flex-wrap justify-center gap-10  py-6'>
-     
-      {technologies.map((technology) => (
-        <div className='w-18 h-18 xxs:w-50 xxs:h-50' key={technology.name}>
-         
-          <SkillCard icon={technology.icon} name ={technology.name}/>
-        </div>
-      ))}
-    </div>
+  return (
+    <>
+      <h2 className={`${styles.sectionHeadText} text-center`} id="skills">
+        Skills
+      </h2>
+      {/* <div className='flex flex-row flex-wrap justify-center gap-2 align-middle  py-6'> */}
+      <div className="grid grid-cols-2 grid-rows-6  gap-4 md:grid-cols-4 md:grid-rows-3  md:gap-5 m-auto p-2">
+        {technologies.map((technology) => (
+          <div className="w-18 h-18 xxs:w-50 xxs:h-50" key={technology.name}>
+            <SkillCard icon={technology.icon} name={technology.name} />
+          </div>
+        ))}
+      </div>
     </>
   );
 };

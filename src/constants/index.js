@@ -4,19 +4,16 @@ import {
   creator,
   web,
   javascript,
-
   html,
   css,
   reactjs,
- 
   tailwind,
   nodejs,
   mongodb,
   git,
   figma,
- 
- 
-  threejs, material,
+  threejs,
+  material,
 } from "../assets";
 
 export const navLinks = [
@@ -75,9 +72,9 @@ const technologies = [
     name: "React JS",
     icon: reactjs,
   },
- 
+
   {
-    name: "Tailwind CSS",
+    name: "Tailwind ",
     icon: tailwind,
   },
   {
@@ -172,8 +169,6 @@ const experiences = [
   },
 ];
 
-
-
 const projects = [
   {
     name: "CADCENTER",
@@ -193,13 +188,14 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image:"https://i.ibb.co/vwqyjt8/Screenshot-10.png",
+    image: "https://i.ibb.co/vwqyjt8/Screenshot-10.png",
     source_code_link: "https://github.com/manojworkhub/CADCENTER",
     live_code_link: "https://manojworkhub.github.io/CADCENTER/",
   },
   {
     name: "Ubinsoft Replica webpage",
-    description:"This project showcases my ability to design visually appealing, responsive web pages with a sleek, user-friendly interface. Despite being static, I implemented interactive elements to enhance user experience. The website highlights my strong front-end development skills and attention to detail.",
+    description:
+      "This project showcases my ability to design visually appealing, responsive web pages with a sleek, user-friendly interface. Despite being static, I implemented interactive elements to enhance user experience. The website highlights my strong front-end development skills and attention to detail.",
     tags: [
       {
         name: "HTML ",
@@ -252,7 +248,7 @@ const projects = [
         color: "red-text-gradient",
       },
     ],
-    image: "https://i.ibb.co/6ZByGSq/Screenshot-83.png" ,
+    image: "https://i.ibb.co/6ZByGSq/Screenshot-83.png",
     source_code_link: "https://github.com/manojworkhub/MR.work-hub",
     live_code_link: "https://manojworkhub.github.io/MR.work-hub/index.html",
   },

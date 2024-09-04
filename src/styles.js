@@ -12,7 +12,8 @@ const styles = {
     "text-white font-black md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px]",
   sectionSubText:
     "sm:text-[18px] text-[14px] text-secondary uppercase tracking-wider",
-  heroPageTitle:" absolute max-[320px]:text-start max-[320px]:left-[80px] top-[100px] left-[100px] sm:left-[10%] md:top-[110px] md:left-[100px] xmd:left-[100px] xxxmd:left-[100px] lg:left-[120px] lg:top-[130px] xlg:top-[150px]"  
+  heroPageTitle:
+    " absolute max-[320px]:text-start max-[320px]:left-[80px] top-[100px] left-[100px] sm:left-[10%] md:top-[110px] md:left-[100px] xmd:left-[100px] xxxmd:left-[100px] lg:left-[120px] lg:top-[130px] xlg:top-[150px]",
 };
 
 export { styles };

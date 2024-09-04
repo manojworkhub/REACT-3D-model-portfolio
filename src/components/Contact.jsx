@@ -7,7 +7,7 @@ import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
 
 const Contact = () => {
-  const [result, setResult] = React.useState("");
+  const [result, setResult] = useState("");
   const onSubmit = async (event) => {
     event.preventDefault();
     setResult("Sending....");

@@ -23,7 +23,7 @@ function App() {
         <Tech />
         <StarsCanvas />
         <Works />
-        {/* <Feedbacks/> */}
+
         <div className="relative z-0">
           <Contact />
           <StarsCanvas />

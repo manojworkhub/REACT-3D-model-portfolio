@@ -37,6 +37,7 @@ const ServiceCard = ({ index, title, icon }) => {
 const About = () => {
   return (
     <section  id="about" className=" p-5 flex flex-col text-center items-center justify-center ">
+    
       <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>Introduction</p>
         <h2 className={styles.sectionHeadText}>Overview.</h2>
@@ -46,12 +47,13 @@ const About = () => {
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px] text-justify" 
       >
         I'm a skilled software developer with experience in JavaScript, and
-        expertise in frameworks like | React • Redux • Material UI • Bootstrap •
-        Tailwind • HTML • CSS • Figma • Wordpress Node.js • Express.js •
+        expertise in frameworks like | React • Material UI • Bootstrap •
+        Tailwind • HTML5 • CSS3 • Figma • Node.js • Express.js •
         ManogoDB. I'm a quick learner and collaborate closely with clients to
         create efficient, scalable, and user-friendly solutions that solve
         real-world problems. Let's work together to bring your ideas to life!
       </motion.p>
+      {/* <div className="grid grid-cols-2 grid-rows-2  gap-4 md:grid-cols-4 md:grid-rows-2  md:gap-5 m-auto p-2"> */}
       <div className="mt-10 flex flex-wrap gap-10 justify-center items-center ">
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
