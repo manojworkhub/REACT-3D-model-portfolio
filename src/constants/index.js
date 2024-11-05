@@ -14,6 +14,8 @@ import {
   figma,
   threejs,
   material,
+  bootstrap,
+  firebase,macincode,javi
 } from "../assets";
 
 export const navLinks = [
@@ -62,6 +64,13 @@ const technologies = [
   {
     name: "CSS 3",
     icon: css,
+  }, {
+    name: "Tailwind ",
+    icon: tailwind,
+  },
+  {
+    name: "Bootstrap",
+    icon: bootstrap,
   },
   {
     name: "JavaScript",
@@ -73,10 +82,7 @@ const technologies = [
     icon: reactjs,
   },
 
-  {
-    name: "Tailwind ",
-    icon: tailwind,
-  },
+ 
   {
     name: "Node JS",
     icon: nodejs,
@@ -85,10 +91,10 @@ const technologies = [
     name: "MongoDB",
     icon: mongodb,
   },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
+  // {
+  //   name: "Three JS",
+  //   icon: threejs,
+  // },
   {
     name: "git",
     icon: git,
@@ -100,73 +106,72 @@ const technologies = [
   {
     name: "material UI",
     icon: material,
+    
+  },
+  {
+    name: "Firebase",
+    icon: firebase,
   },
 ];
 
 const experiences = [
   {
-    title: "React",
-    // company_name: "Starbucks",
-    icon: reactjs,
+    title: "MERN Stack Developer Intern",
+    company_name: "Macincode — Salem",
+    icon: macincode,
     iconBg: "#383E56",
-    date: "Feb 2024 - Present",
+    date: "September 2024 – November2024 (3 months)",
     points: [
-      "Proficient in creating reusable components and using JSX syntax.",
-      "Experienced with managing state using hooks and passing data via props.",
-      "Skilled in handling user interactions, form state, and validations.",
-      "Capable of fetching data from APIs and implementing conditional rendering.",
-      "Optimizes performance with techniques like memoization and code splitting.",
-      "Strong problem-solving skills and effective collaboration with cross-functional teams.",
+    "Develop and maintain fully dynamic web applications using the MERN stack, ensuring responsiveness and optimal performance.",
+    "Implement CRUD functionalities and dynamic features using Firebase as a database and REST APIs.",
+    "Collaborate in a fast-paced environment, working closely with senior developers and project leads to manage front-end and back-end requirements.",
+    "Utilize Express and Node.js for back-end development and integrate Firebase REST APIs for efficient data management."
     ],
   },
   {
-    title: "CSS Framework",
-    // company_name: "Tesla",
-    icon: css,
-    iconBg: "#E6DEDD",
-    date: "Dec 2023",
-    points: [
-      "Skilled in creating responsive designs using Tailwind’s utility classes and Bootstrap’s grid system.",
-      "Capable of customizing Tailwind and Bootstrap to fit specific project needs, ensuring unique and brand-consistent designs.",
-
-      "Optimizes CSS for performance by purging unused styles in Tailwind and minimizing Bootstrap’s file size.",
-      "Implements effective visual feedback and interactive components using both Tailwind and Bootstrap.",
-
-      "Strong attention to detail, effective collaboration with cross-functional teams, and clear communication.",
-    ],
-  },
-  {
-    title: "Javascript",
-    // company_name: "Shopify",
-    icon: javascript,
+    title: "Front-End Developer Intern",
+    company_name: "Javi Technology — Salem",
+    icon: javi,
     iconBg: "#383E56",
-    date: "Nov 2023",
+    date: "April 2024 – September 2024 (5 months)",
     points: [
-      "Proficient in JavaScript syntax, DOM manipulation, and event handling.",
-      "Skilled in implementing responsive design and dynamic content loading using JavaScript and APIs.",
-      "Writes efficient and optimized JavaScript code, understands asynchronous programming (promises, async/await).",
-      // "Enhances user experience with smooth animations, transitions, and immediate feedback mechanisms.",
-      "Ensures all interactive elements are accessible via keyboard and screen readers using ARIA attributes.",
-      "Experienced in using browser developer tools for debugging and writing unit tests with frameworks like Jest.",
+      "Produced high-quality front-end designs, creating 4 screens per day and contributing to over 108 pages each month.",
+      "Utilized HTML, CSS, JavaScript, and React to build responsive interfaces, enhancing the visual appeal and usability of web applications.",
+      "Coordinated with design and development teams to ensure alignment with project requirements and timely completion of deliverables."
     ],
   },
-  {
-    title: "HTML & CSS",
-    // company_name: "Meta",
-    icon: html,
-    iconBg: "#E6DEDD",
-    date: "oct 2023 ",
-    points: [
-      "Learn and use semantic HTML tags to structure your web pages effectively.",
-      "Implement media queries to ensure your website looks good on all device sizes.",
-      "Use semantic HTML tags to improve accessibility and SEO.",
-      "Enhance accessibility of interactive elements with ARIA roles and properties.",
-      "Use browser developer tools for debugging and testing.",
-      "Follow blogs, tutorials, and online courses to stay current with UX trends.",
-      "Focus on spacing, alignment, and consistency in design.",
-      "Actively seek and incorporate feedback to improve your designs.",
-    ],
-  },
+  // {
+  //   title: "Javascript",
+  //   // company_name: "Shopify",
+  //   icon: javascript,
+  //   iconBg: "#383E56",
+  //   date: "Nov 2023",
+  //   points: [
+  //     "Proficient in JavaScript syntax, DOM manipulation, and event handling.",
+  //     "Skilled in implementing responsive design and dynamic content loading using JavaScript and APIs.",
+  //     "Writes efficient and optimized JavaScript code, understands asynchronous programming (promises, async/await).",
+  //     // "Enhances user experience with smooth animations, transitions, and immediate feedback mechanisms.",
+  //     "Ensures all interactive elements are accessible via keyboard and screen readers using ARIA attributes.",
+  //     "Experienced in using browser developer tools for debugging and writing unit tests with frameworks like Jest.",
+  //   ],
+  // },
+  // {
+  //   title: "HTML & CSS",
+  //   // company_name: "Meta",
+  //   icon: html,
+  //   iconBg: "#E6DEDD",
+  //   date: "oct 2023 ",
+  //   points: [
+  //     "Learn and use semantic HTML tags to structure your web pages effectively.",
+  //     "Implement media queries to ensure your website looks good on all device sizes.",
+  //     "Use semantic HTML tags to improve accessibility and SEO.",
+  //     "Enhance accessibility of interactive elements with ARIA roles and properties.",
+  //     "Use browser developer tools for debugging and testing.",
+  //     "Follow blogs, tutorials, and online courses to stay current with UX trends.",
+  //     "Focus on spacing, alignment, and consistency in design.",
+  //     "Actively seek and incorporate feedback to improve your designs.",
+  //   ],
+  // },
 ];
 
 const projects = [

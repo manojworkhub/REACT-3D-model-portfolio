@@ -14,11 +14,13 @@ import javascript from "./tech/javascript.png";
 import mongodb from "./tech/mongodb.png";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
-
+import firebase from "./tech/firebase.png"
 import tailwind from "./tech/tailwind.png";
-
+import bootstrap from "./tech/bootstrap.png"
 import threejs from "./tech/threejs.svg";
 import material from "./tech/material.png";
+import macincode from "./tech/10001.png"
+import javi from "./tech/javi.png"
 
 export {
   backend,
@@ -38,4 +40,6 @@ export {
   threejs,
   media,
   material,
+  bootstrap,
+  firebase,macincode,javi
 };

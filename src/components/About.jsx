@@ -46,12 +46,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px] text-justify" 
       >
-        I'm a skilled software developer with experience in JavaScript, and
-        expertise in frameworks like | React • Material UI • Bootstrap •
-        Tailwind • HTML5 • CSS3 • Figma • Node.js • Express.js •
-        ManogoDB. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+        MERN stack developer with experience across front-end and back-end technologies, adept at creating user-centered applications. Skilled in building responsive and high-performance solutions suited for roles like Front-End Developer, MERN Stack Developer, Full-Stack Developer, or Software Engineer. Committed to delivering top-quality results and currently expanding expertise as a MERN Stack Developer Intern. Eager to drive impactful outcomes on innovative projects and bring strong technical and collaborative skills to any development team.
       </motion.p>
       {/* <div className="grid grid-cols-2 grid-rows-2  gap-4 md:grid-cols-4 md:grid-rows-2  md:gap-5 m-auto p-2"> */}
       <div className="mt-10 flex flex-wrap gap-10 justify-center items-center ">
