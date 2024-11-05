@@ -15,7 +15,9 @@ import {
   threejs,
   material,
   bootstrap,
-  firebase,macincode,javi
+  firebase,
+  macincode,
+  javi,
 } from "../assets";
 
 export const navLinks = [
@@ -64,7 +66,8 @@ const technologies = [
   {
     name: "CSS 3",
     icon: css,
-  }, {
+  },
+  {
     name: "Tailwind ",
     icon: tailwind,
   },
@@ -82,7 +85,6 @@ const technologies = [
     icon: reactjs,
   },
 
- 
   {
     name: "Node JS",
     icon: nodejs,
@@ -106,7 +108,6 @@ const technologies = [
   {
     name: "material UI",
     icon: material,
-    
   },
   {
     name: "Firebase",
@@ -120,12 +121,12 @@ const experiences = [
     company_name: "Macincode — Salem",
     icon: macincode,
     iconBg: "#383E56",
-    date: "September 2024 – November2024 (3 months)",
+    date: "September 2024 – November 2024 (3 months)",
     points: [
-    "Develop and maintain fully dynamic web applications using the MERN stack, ensuring responsiveness and optimal performance.",
-    "Implement CRUD functionalities and dynamic features using Firebase as a database and REST APIs.",
-    "Collaborate in a fast-paced environment, working closely with senior developers and project leads to manage front-end and back-end requirements.",
-    "Utilize Express and Node.js for back-end development and integrate Firebase REST APIs for efficient data management."
+      "Develop and maintain fully dynamic web applications using the MERN stack, ensuring responsiveness and optimal performance.",
+      "Implement CRUD functionalities and dynamic features using Firebase as a database and REST APIs.",
+      "Collaborate in a fast-paced environment, working closely with senior developers and project leads to manage front-end and back-end requirements.",
+      "Utilize Express and Node.js for back-end development and integrate Firebase REST APIs for efficient data management.",
     ],
   },
   {
@@ -137,7 +138,7 @@ const experiences = [
     points: [
       "Produced high-quality front-end designs, creating 4 screens per day and contributing to over 108 pages each month.",
       "Utilized HTML, CSS, JavaScript, and React to build responsive interfaces, enhancing the visual appeal and usability of web applications.",
-      "Coordinated with design and development teams to ensure alignment with project requirements and timely completion of deliverables."
+      "Coordinated with design and development teams to ensure alignment with project requirements and timely completion of deliverables.",
     ],
   },
   // {
